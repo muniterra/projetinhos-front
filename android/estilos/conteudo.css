@@ -1,0 +1,105 @@
+.conteudo {
+    background-color: var(--cor1);
+    border-radius: 0 0 0.625rem 0.625rem;
+    box-shadow: 0.188rem 0.188rem 0.5rem #00000040;
+    margin: 0 auto;
+    padding: 1.25rem;
+}
+
+.conteudo__container-centro {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo__container-iframe{
+    background-color: var(--cor5);
+    margin-bottom: 1.875rem;
+    padding: 1.25rem;
+    transform: translateX(-1.25rem);
+    width: 100%;
+}
+
+.conteudo__iframe {
+    width: 90%;
+}
+
+.conteudo__imagem-responsiva {
+    width: 100%;
+}
+
+.conteudo__link {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    font-weight: 700;
+    padding: 0.125rem 0.375rem;
+    text-decoration: none;
+}
+
+.conteudo__link::after {
+    content: '\1F517';
+}
+
+.conteudo__lista {
+    columns: 2;
+    list-style-position: inside;
+}
+
+.conteudo__saber-mais {
+     background-color: var(--cor3);
+     border-radius: 0.625rem;
+     box-shadow: 0.188rem 0.188rem 0.5rem #00000040;
+     padding: 0.625rem;
+}
+
+.conteudo__texto {
+    line-height: 2rem;
+    text-align: justify;
+    text-indent: 1.875rem;
+    margin: 1rem 0;
+}
+
+.conteudo__texto--destaque {
+    color: var(--cor5);
+    font-weight: 700;
+}
+
+.conteudo__titulo-principal {
+    color: var(--cor5);
+    font: 400 1.8rem var(--fonte-decorativa);
+    text-align: center;
+}
+
+.conteudo__titulo-secundario {
+    background-image: linear-gradient(to right, var(--cor3), var(--cor1));
+    color: var(--cor5);
+    font: 400 1.3rem var(--fonte-decorativa);
+    padding-left: 0.5rem;
+}
+
+.conteudo__titulo-terciario {
+    background-color: var(--cor5);
+    border-radius: 0.625rem 0.625rem 0 0;
+    color: var(--cor1);
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: -0.625rem -0.625rem 0 -0.625rem;
+    padding: 0.625rem;
+}
+
+@media screen and (min-width: 34.375rem) {
+    .conteudo__lista {
+        list-style-type: '\2714\00A0\00A0';
+    }
+}
+
+@media screen and (min-width: 40.625rem) {
+    .conteudo__titulo-principal {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 50rem) {
+    .conteudo {
+        max-width: 50rem;
+    }
+}

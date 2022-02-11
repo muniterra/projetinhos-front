@@ -7,14 +7,14 @@
     text-align: center;
 }
 
-.rodape__destaque {
+.rodape__link {
     color: var(--cor1);
     font-weight: 700;
     text-decoration: none;
     transition: 0.25s;
 }
 
-.rodape__destaque:hover {
+.rodape__link:hover {
     color: var(--cor3);
     text-decoration: underline;
 }

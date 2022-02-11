@@ -28,18 +28,6 @@
     width: 100%;
 }
 
-.conteudo__link {
-    background-color: var(--cor3);
-    color: var(--cor5);
-    font-weight: 700;
-    padding: 0.125rem 0.375rem;
-    text-decoration: none;
-}
-
-.conteudo__link::after {
-    content: '\1F517';
-}
-
 .conteudo__lista {
     columns: 2;
     list-style-position: inside;
@@ -62,6 +50,18 @@
 .conteudo__texto--destaque {
     color: var(--cor5);
     font-weight: 700;
+}
+
+.conteudo__texto--link {
+    background-color: var(--cor3);
+    color: var(--cor5);
+    font-weight: 700;
+    padding: 0.125rem 0.375rem;
+    text-decoration: none;
+}
+
+.conteudo__texto--link::after {
+    content: '\1F517';
 }
 
 .conteudo__titulo-principal {

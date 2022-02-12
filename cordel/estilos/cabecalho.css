@@ -1,0 +1,21 @@
+.cabecalho {
+    background-color: black;
+    color: white;
+    padding: 3.125rem 0;
+    text-align: center;
+}
+
+.cabecalho__titulo {
+    font-family: var(--fonte-destaque);
+    font-size: 2.375rem;
+    font-variant: small-caps;
+}
+.cabecalho__link {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.cabecalho__link:hover {
+    text-decoration: underline;
+}

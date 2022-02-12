@@ -1,0 +1,16 @@
+.rodape {
+    background-color: black;
+    color: white;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+.rodape__link {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.rodape__link:hover {
+    text-decoration: underline;
+}

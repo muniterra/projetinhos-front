@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+
+:root {
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte-destaque: 'Passion One', cursive;
+    --fonte-texto: 'Sriracha', cursive;
+}
+
+body {
+    background-color: darkgray;
+    box-sizing: border-box;
+    font: 400 1rem var(--fonte-padrao);
+}

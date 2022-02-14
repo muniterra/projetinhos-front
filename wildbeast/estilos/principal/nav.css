@@ -11,6 +11,11 @@
     max-width: 6.25rem;
     min-width: 3.75rem;
     padding: 1.25rem;
+    transition: 0.25s;
+}
+
+.nav__link:hover {
+    background-color: var(--cor2);
 }
 
 .nav__lista {

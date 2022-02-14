@@ -1,0 +1,33 @@
+.anuncios { 
+    display: flex;
+    flex-direction: column;
+    grid-area: anuncios;
+    padding: 1.25rem;
+    row-gap: 1.25rem;
+}
+
+.anuncios__imagem { 
+    border-radius: 0.313rem;
+    max-width: 100%;
+    width: 95%;
+}
+
+@media screen and (min-width: 26rem) {
+    .anuncios { 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .anuncios__imagem { 
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 75rem) {
+    .anuncios { 
+        align-items: center;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 100%;
+    }
+}

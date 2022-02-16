@@ -9,7 +9,6 @@
 .anuncios__imagem { 
     border-radius: 0.313rem;
     max-width: 100%;
-    width: 95%;
 }
 
 @media screen and (min-width: 26rem) {
@@ -27,8 +26,6 @@
     .anuncios { 
         flex-direction: column;
         justify-content:flex-start;
-        max-width: 230px;
-        width: 100%;
     }
 
     .anuncios__imagem { 

@@ -29,7 +29,6 @@
 
 .cabecalho__lista {
     display: flex;
-    justify-content: space-evenly;
 }
 
 .cabecalho__logo {
@@ -37,9 +36,9 @@
     max-width: 18.75rem;
 }
 
-.cabecalho__menu {
+/*.cabecalho__menu {
     max-width: 21.875rem;
-}
+}*/
 
 @media screen and (min-width: 47.5rem) {
     .cabecalho {
